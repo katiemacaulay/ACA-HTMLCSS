@@ -1,39 +1,64 @@
 body{
   font-family: 'Markazi Text', serif;
+  font-size: 16px;
+  background-color: #3a3a33;
   background-image: url(http://magic-goal.ru/wp-content/uploads/2017/04/office-cat.jpg);
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 nav{
+  position: fixed;
+  z-index: 1;
+  background: hsla(0, 100%, 100%, 0.5);
+  top: 20px;
+  right: 10px;
+  height: 90vh;
+  width: 11%;
   border: 1px solid #edeff2;
   margin: 0px;
+  padding-top: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
   text-align: center;
-  background-color: #d9e6f9;
 }
-header{
-  font-size: 220%;
-  text-align: center;
-  color:#fcffdd;
+.icon{
+  padding-top: 10px;
+  padding-left: 2px;
 }
 main{
+  flex: 1;
+  height: 90vh;
   width: 70%;
+  overflow-y: scroll;
   box-sizing: border-box;
   margin: 20px auto;
-  padding: 0 30px 30px;
+  padding: 0px 30px 30px;
   border-radius: 5px;
   border: 2px solid #edeff2;
   background-color: white;
+}
+header{
+  position: sticky;
+  top: 0px;
+  font-size: 220%;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 12px;
+  border: 1px solid white;
 }
 div{
   width: 100%;
   box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 30px;
-  padding: 0 20px;
+  padding: 10px 20px;
   color: #576d8e;
   border-radius: 5px;
   border: 1px solid #edeff2;
+}
+div:nth-child(3) {
+  margin-top: 20px;
 }
 h1{
   color: black;
