@@ -1,3 +1,44 @@
 body{
-  font-family: fantasy;
+  font-family: 'Markazi Text', serif;
+}
+nav{
+  border: 1px solid #edeff2;
+  margin: 0px;
+  text-align: center;
+  background-color: #d9e6f9;
+}
+header{
+  font-size: 220%;
+}
+main{
+  width: 70%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 0 30px 30px;
+  border-radius: 5px;
+  border: 2px solid #edeff2;
+}
+div{
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  color: #576d8e;
+  border-radius: 5px;
+  border: 1px solid #edeff2;
+}
+h1{
+  border: 1px solid white;
+  margin:10%;
+  padding:10%;
+  background-image: url(http://protechniq.com/max/wp-content/uploads/2011/09/simons-cat-cat-and-mouse.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+  text-align:right;
+
+}
+h2{
+  color: black;
 }
