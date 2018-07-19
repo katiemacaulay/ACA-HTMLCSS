@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 body{
   font-family: 'Cabin', sans-serif;
   font-size: 2.5vh;
@@ -19,7 +22,7 @@ h1{
   margin-bottom: 5%;
 }
 div{
-  background: hsla(0, 100%, 100%, 0.7);
+  background: hsla(0, 30%, 100%, 0.8);
   border: 1px solid white;
   margin-left: 10%;
   margin-right: 40%;
