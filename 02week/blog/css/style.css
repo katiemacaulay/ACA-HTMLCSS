@@ -2,7 +2,7 @@ body{
   font-family: 'Markazi Text', serif;
   font-size: 20px;
   background-color: #3a3a33;
-  background-image: url(http://magic-goal.ru/wp-content/uploads/2017/04/office-cat.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/30/09/24/keyboard-2356305_960_720.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,13 +13,14 @@ nav{
   top: 20px;
   right: 10px;
   height: 90vh;
-  width: 11%;
+  width: 8%;
   margin: 0px;
   padding-top: 10px;
   padding-left: 1px;
   padding-right: 1px;
   text-align: center;
-  font-size: 140%;
+  font-size: 80%;
+  font-style: normal;
   border-radius: 5px;
 }
 .icon{
@@ -29,7 +30,7 @@ nav{
 main{
   flex: 1;
   height: 90vh;
-  width: 70%;
+  width: 78%;
   overflow-y: scroll;
   box-sizing: border-box;
   margin: 20px auto;
@@ -108,4 +109,10 @@ ol{
 
 .container:hover .overlay {
   opacity: 1;
+}
+footer{
+  margin: 0px;
+  font-size: 65%;
+  text-align: right;
+  color: #c2c6ce;
 }
