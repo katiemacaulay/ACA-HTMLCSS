@@ -2,7 +2,7 @@ body{
   font-family: 'Markazi Text', serif;
   font-size: 20px;
   background-color: #3a3a33;
-  background-image: url(https://cdn.pixabay.com/photo/2017/05/30/09/24/keyboard-2356305_960_720.jpg);
+  background-image: url(https://c.pxhere.com/photos/a2/15/apple_coffee_coffee_shop_computer_headphones_mac_macbook_pro_notebook-937640.jpg!d);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@ nav{
   position: fixed;
   z-index: 1;
   background: hsla(0, 100%, 100%, 0.6);
-  top: 20px;
+  top: 30px;
   right: 10px;
   height: 90vh;
   width: 8%;
@@ -33,22 +33,28 @@ main{
   width: 78%;
   overflow-y: scroll;
   box-sizing: border-box;
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 0px 30px 30px;
   border-radius: 5px;
   border: 2px solid #edeff2;
-  background-color: white;
+  background: hsla(0, 100%, 100%, 0.8);
 }
 header{
   position: sticky;
   z-index: 1;
-  top: 0px;
-  font-size: 220%;
+  top: 2%;
+  font-size: 200%;
   width: 100%;
-  background-color: white;
+  margin: auto;
+  background: hsla(0, 100%, 100%, .98);
   box-sizing: border-box;
   padding-top: 12px;
   border: 1px solid white;
+  border-radius: 5px;
+  padding-left: 4%;
+}
+hr{
+  font-size: 80%;
 }
 div{
   width: 100%;
@@ -60,8 +66,8 @@ div{
   border-radius: 5px;
   border: 1px solid #edeff2;
 }
-div:nth-child(3) {
-  margin-top: 15px;
+div:nth-child(2) {
+  margin-top: 35px;
 }
 h1{
   color: black;
