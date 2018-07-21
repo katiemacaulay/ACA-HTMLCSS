@@ -2,10 +2,10 @@ html{
   height: 100%;
 }
 body{
-  font-family: 'Sacramento', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 2.5vh;
   background-color: #b2b4b7;
-  background-image: url(http://www.internalvoices.org/transfile/big/22/221258_beautiful-girl-wallpaper.jpg);
+  background-image: url(https://i.pinimg.com/564x/5a/8b/a6/5a8ba69afd0c1f246915632a3297159e.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -38,4 +38,7 @@ aside{
 p{
   font-size: 100%;
   padding-left: 15%;
+}
+.links{
+  list-style-type: none;
 }
