@@ -52,3 +52,8 @@ p{
 .links{
   list-style-type: none;
 }
+a:hover{
+  display: block;
+  border-radius: 8px;
+  background-color: #b6b8c4;
+}
