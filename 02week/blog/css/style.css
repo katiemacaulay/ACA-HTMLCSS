@@ -1,3 +1,129 @@
 body{
-  background-image: url(https://vignette.wikia.nocookie.net/rwby/images/b/b1/Kittens_basket.jpg/revision/latest?cb=20160930030224);
+  font-family: 'Markazi Text', serif;
+  font-size: 20px;
+  background-color: #3a3a33;
+  background-image: url(https://c.pxhere.com/photos/a2/15/apple_coffee_coffee_shop_computer_headphones_mac_macbook_pro_notebook-937640.jpg!d);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+  position: fixed;
+  z-index: 1;
+  background: hsla(0, 100%, 100%, 0.6);
+  top: 30px;
+  right: 10px;
+  height: 90vh;
+  width: 8%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  text-align: center;
+  font-size: 80%;
+  font-style: normal;
+  border-radius: 5px;
+}
+.icon{
+  padding-top: 10px;
+  padding-left: 2px;
+}
+main{
+  flex: 1;
+  height: 90vh;
+  width: 78%;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  margin: 30px auto;
+  padding: 0px 30px 30px;
+  border-radius: 5px;
+  border: 2px solid #edeff2;
+  background: hsla(0, 100%, 100%, 0.8);
+}
+header{
+  position: sticky;
+  z-index: 1;
+  top: 2%;
+  font-size: 200%;
+  width: 100%;
+  margin: auto;
+  background: hsla(0, 100%, 100%, .98);
+  box-sizing: border-box;
+  padding-top: 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-left: 4%;
+}
+hr{
+  font-size: 80%;
+}
+p, ol{
+  color:#2e3b82 !important;
+}
+div{
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  color: #576d8e;
+  border-radius: 5px;
+  border: 1px solid #edeff2;
+}
+div:nth-child(2) {
+  margin-top: 35px;
+}
+h1{
+  color: black;
+  text-align:center;
+}
+h2{
+  color: black;
+}
+ol{
+  list-style-type:square;
+}
+#green{
+  color: green;
+}
+#border{
+  border: 2px dotted pink;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.hoverimg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  text-align: center;
+  color: white;
+  font-size: 220%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+footer{
+  margin: 0px;
+  font-size: 65%;
+  text-align: right;
+  color: #c2c6ce;
+}
+p:hover::first-letter {
+  font-size: 120%;
 }

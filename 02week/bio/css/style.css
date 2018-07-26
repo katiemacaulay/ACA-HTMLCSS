@@ -11,7 +11,7 @@ body{
 }
 header{
   font-size: 280%;
-  margin-top: 8%;
+  margin-top: 20%;
   margin-left: 10%;
   margin-right: 40%;
 }
@@ -25,12 +25,10 @@ h1{
   margin-right: 40%;
   margin-bottom: 5%;
 }
-main{
-  box-sizing: border-box;
-  margin: 20px auto;
-  border-radius: 5px;
-  background: hsla(0, 30%, 100%, 0.8);
-  border-radius: 5px;
+
+div{
+  background: hsla(0, 100%, 100%, 0.8);
+  border: 1px solid white;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 2%;
