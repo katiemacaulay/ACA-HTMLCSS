@@ -13,14 +13,10 @@
         <img src="img/logo.png" alt="logo"/>
       </header>
       <ul class="topnav">
-        <li><img src="img/home-icon.png" alt="home" width="11px";
-        height="11px"/> Home</li>
-        <li><img src="img/plane-icon.png" alt="travel" width="11px";
-        height="11px"/> Travel Deals</li>
-        <li><img src="img/schedule-icon.png" alt="schedule" width="11px";
-        height="11px"/> Flight Schedule</li>
-        <li><img src="img/login-icon.png" alt="login" width="11px";
-        height="11px"/> Register/Login</li>
+        <li><img src="img/home-icon.png" alt="home"/> Home</li>
+        <li><img src="img/plane-icon.png" alt="travel"/> Travel Deals</li>
+        <li><img src="img/schedule-icon.png" alt="schedule"/> Flight Schedule</li>
+        <li><img src="img/login-icon.png" alt="login"/> Register/Login</li>
       </ul>
     </div>
     <main>
@@ -38,6 +34,28 @@
             <li><input type="date" name="mm/dd/yyyy"/></li>
             <li><input type="date" name="mm/dd/yyyy"/></li>
           </ul>
+          <ul class="passengers">
+            <li>passengers</li>
+            <li class="numberofpassengers">
+              <form action="/action_page.php">
+                <select name="numberofpassengers">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </form>
+            </li>
+            <li>
+              <form class="radioform">
+                <label class="radio-inline">
+                  <input type="radio" name="radio-inline" checked/>Return</label>
+                <label class="radio-inline">
+                  <input type="radio" name="radio-inline"/>One-way</label>
+              </form>
+            </li>
+          </ul>
+          <input type="submit" value="Submit">
         </p>
       </nav>
     </main>

@@ -27,7 +27,7 @@ header > img{
   list-style: none;
   background-color: #203a53;
   right:1%;
-  top: 3.3%;
+  top: 5%;
   left: 63%;
   padding: 2px;
   font-size: 80%;
@@ -35,6 +35,10 @@ header > img{
 .topnav > li{
   display: inline-block;
   padding-right: 5px;
+}
+.topnav > li > img{
+  width: 9px;
+  height: 9px;
 }
 main{
   background-color: #203a53;
@@ -48,20 +52,26 @@ main{
 }
 .extrabackground{
   background-color: #3c8b80;
-  height:40px;
+  height:30px;
+  border-radius: 3px;
 }
 .travelnav{
-  height:125px;
+  height:250px;
 }
 .bigplane{
   box-sizing: border-box;
-  background-color: #20599d;
+  background-color: #255ca1;
   top: 0px;
   width:33.33%;
-  height:40px;
+  height:30px;
   position: absolute;
   border-radius: 2px;
-  padding-left: 9%;
+  padding-left: 13%;
+  padding-top: 6px;
+}
+.bigplane > img{
+  width: 20px;
+  height: 20px;
 }
 .hotels{
   top: 0px;
@@ -69,12 +79,16 @@ main{
   background-color: #3c8b80;
   left: 33.33%;
   width:33.33%;
-  height:40px;
+  height:30px;
   position: absolute;
   border-radius: 2px;
-  padding-left: 9%;
-  padding-top: 5px;
+  padding-left: 13%;
+  padding-top: 6px;
   padding-bottom: 2px;
+}
+.hotels > img{
+  width: 20px;
+  height: 20px;
 }
 .rentals{
   top: 0px;
@@ -82,11 +96,15 @@ main{
   background-color: #3c8b80;
   left:66.66%;
   width:33.33%;
-  height:40px;
+  height:30px;
   position: absolute;
   border-radius: 2px;
-  padding-left: 9%;
-  padding-top: 5px;
+  padding-left: 13%;
+  padding-top: 6px;
+}
+.rentals > img{
+  width: 20px;
+  height: 20px;
 }
 .departarrive{
   margin: 0px;
@@ -94,17 +112,17 @@ main{
 }
 .departarrive > li{
   display: inline-block;
-  border: 1px solid #b6bec5;
-  height: 20px;
-  width: 38%;
+  border: 1px solid white;
+  height: 15px;
+  width: 40%;
   border-radius: 3px;
   margin-top: 6%;
-  margin-left: 4%;
-  margin-right: 4%;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 2.5%;
   padding-left: 2%;
-  font-size: 12px;
+  padding-bottom: 0.5%;
+  font-size: 80%;
   color: #6c7a8e;
 }
 .dates{
@@ -113,23 +131,44 @@ main{
 }
 .dates > li{
   display: inline-block;
-  border: 1px solid #b6bec5;
-  height: 20px;
-  width: 38%;
+  border: 1px solid white;
+  height: 15px;
+  width: 40%;
   border-radius: 3px;
   margin-top: 6%;
-  margin-left: 4%;
-  margin-right: 4%;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
   padding-left: 2%;
 }
-input{
-  background-color: green;
-  color: #b6bec5;
+input[type=date]{
+  color: white;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
   background-color: #203a53;
   border: 1px solid #203a53;
   width: 97%;
+  font-size: 80%;
+}
+.passengers{
+  margin: 0px;
+  padding: 0px;
+}
+.passengers > li{
+  display: inline-block;
+  border: 1px solid white;
+  height: 15px;
+  width: 17%;
+  border-radius: 3px;
+  margin-top: 6%;
+  margin-left: 1.5%;
+  margin-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  font-size: 80%;
+}
+.radioform{
+  width: 40%;
 }
