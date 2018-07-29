@@ -30,15 +30,19 @@
             <li>Depart</li>
             <li>Arrive</li>
           </ul>
+        </p>
+        <p>
           <ul class="dates">
             <li><input type="date" name="mm/dd/yyyy"/></li>
             <li><input type="date" name="mm/dd/yyyy"/></li>
           </ul>
+        </p>
+        <p>
           <ul class="passengers">
-            <li>passengers</li>
-            <li class="numberofpassengers">
+            <li class="box1">Passengers</li>
+            <li class="box2">
               <form action="/action_page.php">
-                <select name="numberofpassengers">
+                <select name="numberofpassengers" class="numbers">
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -46,16 +50,18 @@
                 </select>
               </form>
             </li>
-            <li>
-              <form class="radioform">
+            <li class="box3">
+              <form>
                 <label class="radio-inline">
                   <input type="radio" name="radio-inline" checked/>Return</label>
                 <label class="radio-inline">
-                  <input type="radio" name="radio-inline"/>One-way</label>
+                  <input type="radio" name="radio-inline"/>One Way</label>
               </form>
             </li>
           </ul>
-          <input type="submit" value="Submit">
+        </p>
+        <p>
+          <input type="submit" value="Search Flights" class="submit">
         </p>
       </nav>
     </main>
