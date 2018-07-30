@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UX Atlantic</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <div class="topbar">
+      <header>
+        <img src="img/logo.png" alt="logo"/>
+      </header>
+      <ul class="topnav">
+        <li><img src="img/home-icon.png" alt="home"/> Home</li>
+        <li><img src="img/plane-icon.png" alt="travel"/> Travel Deals</li>
+        <li><img src="img/schedule-icon.png" alt="schedule"/> Flight Schedule</li>
+        <li><img src="img/login-icon.png" alt="login"/> Register/Login</li>
+      </ul>
+    </div>
+    <main>
+        <div class="extrabackground"></div>
+        <div class="travelnav">
+          <div class="bigplane"><img src="img/plane-icon.png" alt="planeflights"/></div>
+          <div class="hotels"><img src="img/hotel-icon.png" alt="hotels"/></div>
+          <div class="rentals"><img src="img/car-icon.png" alt="rentals"/></div>
+        <p>
+          <ul class="departarrive">
+            <li>Depart</li>
+            <li>Arrive</li>
+          </ul>
+        </p>
+        <p>
+          <ul class="dates">
+            <li><input type="date" name="mm/dd/yyyy"/></li>
+            <li><input type="date" name="mm/dd/yyyy"/></li>
+          </ul>
+        </p>
+        <p>
+          <ul class="passengers">
+            <li class="box1">Passengers</li>
+            <li class="box2">
+              <form action="/action_page.php">
+                <select name="numberofpassengers" class="numbers">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </form>
+            </li>
+            <li class="box3">
+              <form>
+                <label class="radio-inline">
+                  <input type="radio" name="radio-inline" checked/>Return</label>
+                <label class="radio-inline">
+                  <input type="radio" name="radio-inline"/>One Way</label>
+              </form>
+            </li>
+          </ul>
+        </p>
+        <p>
+          <input type="submit" value="Search Flights" class="submit">
+        </p>
+      </nav>
+    </main>
+
+  </body>
+</html>

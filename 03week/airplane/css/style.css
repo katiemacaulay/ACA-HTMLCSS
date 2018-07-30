@@ -1,0 +1,212 @@
+body{
+  background-image: url("../img/airline.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  color: #b6bec5;
+}
+.topbar{
+  background-color: #203a53;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  height: 12%;
+}
+header > img{
+  position: absolute;
+  height: 10%;
+  width: auto;
+  margin-left: 5%;
+}
+.topnav{
+  position: absolute;
+  height: 3%;
+  width: auto;
+  list-style: none;
+  background-color: #203a53;
+  right:1%;
+  top: 5%;
+  left: 63%;
+  padding: 2px;
+  font-size: 80%;
+}
+.topnav > li{
+  display: inline-block;
+  padding-right: 5px;
+}
+.topnav > li > img{
+  width: 9px;
+  height: 9px;
+}
+main{
+  background-color: #203a53;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 6%;
+  margin-left: 9%;
+  margin-right: 61%;
+  padding: 0;
+}
+.extrabackground{
+  background-color: #3c8b80;
+  height:30px;
+  border-radius: 3px;
+}
+.bigplane{
+  box-sizing: border-box;
+  background-color: #255ca1;
+  top: 0px;
+  width:33.33%;
+  height:30px;
+  position: absolute;
+  border-radius: 2px;
+  padding-left: 13%;
+  padding-top: 6px;
+}
+.bigplane > img{
+  width: 20px;
+  height: 20px;
+}
+.hotels{
+  top: 0px;
+  box-sizing: border-box;
+  background-color: #3c8b80;
+  left: 33.33%;
+  width:33.33%;
+  height:30px;
+  position: absolute;
+  border-radius: 2px;
+  padding-left: 13%;
+  padding-top: 6px;
+  padding-bottom: 2px;
+}
+.hotels > img{
+  width: 20px;
+  height: 20px;
+}
+.rentals{
+  top: 0px;
+  box-sizing: border-box;
+  background-color: #3c8b80;
+  left:66.66%;
+  width:33.33%;
+  height:30px;
+  position: absolute;
+  border-radius: 2px;
+  padding-left: 13%;
+  padding-top: 6px;
+}
+.rentals > img{
+  width: 20px;
+  height: 20px;
+}
+.departarrive{
+  margin: 0px;
+  padding: 0px;
+}
+.departarrive > li{
+  display: inline-block;
+  border: 1px solid white;
+  height: 15px;
+  width: 40%;
+  border-radius: 3px;
+  margin-top: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 2.5%;
+  padding-left: 2%;
+  padding-bottom: 0.5%;
+  font-size: 70%;
+  color: #6c7a8e;
+}
+.dates{
+  margin: 0px;
+  padding: 0px;
+}
+.dates > li{
+  display: inline-block;
+  border: 1px solid white;
+  height: 15px;
+  width: 40%;
+  border-radius: 3px;
+  margin-top: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+input[type=date]{
+  color: white;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  background-color: #203a53;
+  border: 1px solid #203a53;
+  width: 97%;
+  font-size: 70%;
+}
+.passengers{
+  margin: 0px;
+  padding: 0px;
+}
+.passengers > li{
+  display: inline-block;
+  height: 15px;
+  border-radius: 3px;
+  margin-top: 6%;
+  font-size: 80%;
+}
+.box1{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 18%;
+  padding-top: 2.5%;
+  padding-left: 2%;
+  padding-bottom: 0.5%;
+}
+.box2{
+  border: 1px solid white;
+  margin-left: 2%;
+  margin-right: 3%;
+  padding-top: 2.5%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 5px;
+  width: 15%;
+}
+.numbers{
+  background-color: #203a53;
+  border: 1px solid #203a53;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80%;
+  padding: 0px;
+}
+.box3{
+  width: 42%;
+  margin-left: 1%;
+  margin-right: 3%;
+  padding-left: 2%;
+}
+.radio-inline > input{
+  font-size: 6px;
+}
+.submit{
+  width: 92%;
+  height: 3%;
+  margin-left: 3%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  background-color:#255ca1;
+  border: 0px solid white;
+  border-radius: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 2%;
+  color: white;
+  font-size: 80%;
+
+}
