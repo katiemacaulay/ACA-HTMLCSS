@@ -1,0 +1,8 @@
+body{
+  margin: 0, auto;
+}
+.mainimg{
+  background-image: url("../img/bg.jpg");
+  width: 500px;
+  height: 300px;
+}
