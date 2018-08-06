@@ -1,0 +1,50 @@
+body{
+  width: 850px;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+section{
+  color:  #484d54;
+}
+h1{
+  color: black;
+  font-weight: bold;
+}
+.topbar{
+  background-image: url("../img/nasa-background.jpg");
+  width: 850px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+  margin: 20px;
+  font-weight: bolder;
+}
+.bottombar{
+  background-color: lightgrey;
+  width: 850px;
+  height: 324px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.media{
+  list-style-type: none;
+  padding: 0px;
+  line-height: 25px;
+}
+#location{
+  font-style: normal;
+  line-height: 25px;
+}
+.button{
+  background-color: #484d54;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+}
