@@ -21,6 +21,7 @@ aside{
   font-weight: bold;
   width: 300px;
   height: 400px;
+  margin-top: 25px;
 }
 h2{
   border-bottom: solid 1px black;
@@ -39,6 +40,7 @@ button{
   background-color: grey;
   color: white;
   padding: 5px;
+  margin-top: 20px;
 }
 .socialmedia{
   width: 370px;
@@ -66,7 +68,7 @@ button{
   }
   .maininfo{
     position: absolute;
-    margin-top: 50%;
+    margin-top: 60%;
   }
   .socialmedia{
     display: flex;
@@ -92,7 +94,7 @@ button{
   }
   .maininfo{
     position: absolute;
-    margin-top: 50%;
+    margin-top: 60%;
   }
   aside{
     display: none;
