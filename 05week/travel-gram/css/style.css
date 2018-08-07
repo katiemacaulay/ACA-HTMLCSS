@@ -1,1 +1,60 @@
+body{
+  margin: 0 auto;
+}
 
+.mainsection{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid
+
+}
+.boxA, .boxB, .boxF{
+  border: solid 1px orange;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "box1 box2 box2"
+    "box1 box3 box4"
+}
+.box1{
+  background-image: url("../img/glow.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  grid-area: box1;
+}
+.box2{
+  font-size: 8px;
+  grid-area: box2;
+}
+.box3{
+  grid-area: box3;
+}
+.box4{
+  grid-area: box4;
+}
+.boxC{
+  border: solid 1px green;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-areas:
+    "box1 box1"
+    "box2 box2"
+    "box3 box4"
+}
+.secbox1{
+  grid-area: box1;
+}
+.secbox2{
+  grid-area: box2;
+}
+.secbox3{
+  grid-area: box3;
+}
+.secbox4{
+  grid-area: box4;
+}
+.boxA{
+  grid-area:
+}
