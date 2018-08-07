@@ -41,9 +41,11 @@ button{
     "box3 box3 box4";
 }
 .box1{
+  background-position: center;
   background-image: url("../img/glow.png");
-  background-size: contain;
-  height: 200px;
+  background-size: stretch;
+  background-repeat: no-repeat;
+  min-height: 150px;
   grid-area: box1;
 }
 .box2{
