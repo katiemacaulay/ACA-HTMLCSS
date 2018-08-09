@@ -1,3 +1,71 @@
 body{
   margin: 0 auto;
 }
+/* .trigger{
+} */
+.all{
+  display: flex;
+  justify-content: center;
+}
+.trigger{
+  height: 665px;
+  width: 50px;
+  border: solid 10px grey;
+}
+.box{
+  width: 50px;
+  height: 50px;
+}
+.box > div{
+  transition: width 2s, height 2s, transform 500ms ease-in-out;
+}
+
+.trigger:hover .box > div:nth-child(odd){
+  transform: translate(200px, 0) rotate(180deg);
+  width: 100px;
+  height: 100px;
+}
+.trigger:hover .box > div:nth-child(even){
+  transform: translate(-200px, 0) rotate(-180deg);
+  width: 25px;
+  height: 25px;
+}
+.box > div{
+  margin-top: 5px;
+}
+.box1{
+  background-color: #dd9f9f;
+}
+.box2{
+  background-color: #ddaf9f;
+}
+.box3{
+  background-color: #ddbf9f;
+}
+.box4{
+  background-color: #ddd59f;
+}
+.box5{
+  background-color: #cfdd9f;
+}
+.box6{
+  background-color: #b2dd9f;
+}
+.box7{
+  background-color: #9fdda2;
+}
+.box8{
+  background-color: #9fddc3;
+}
+.box9{
+  background-color: #9fddd9;
+}
+.box10{
+  background-color: #9fcedd;
+}
+.box11{
+  background-color: #9fb5dd;
+}
+.box12{
+  background-color: #9fa2dd;
+}
