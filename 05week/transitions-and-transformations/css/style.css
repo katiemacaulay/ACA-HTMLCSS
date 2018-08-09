@@ -23,7 +23,6 @@ body{
   transform: translate(300px, 0) rotate(180deg);
   width: 100px;
   height: 100px;
-  justify-content: flex-start;
 }
 .trigger:hover .container > div:nth-child(even){
   transform: translate(-300px, 0) rotate(-180deg);
