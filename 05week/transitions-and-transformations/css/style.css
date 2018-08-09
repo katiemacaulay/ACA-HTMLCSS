@@ -1,36 +1,36 @@
 body{
   margin: 0 auto;
+  width: 100%;
 }
-/* .trigger{
-} */
-.all{
+
+.mainbox{
   display: flex;
   justify-content: center;
 }
 .trigger{
   height: 665px;
   width: 50px;
-  border: solid 10px grey;
 }
-.box{
+.container > div{
   width: 50px;
   height: 50px;
 }
-.box > div{
+.container > div{
   transition: width 2s, height 2s, transform 500ms ease-in-out;
 }
 
-.trigger:hover .box > div:nth-child(odd){
-  transform: translate(200px, 0) rotate(180deg);
+.trigger:hover .container > div:nth-child(odd){
+  transform: translate(300px, 0) rotate(180deg);
   width: 100px;
   height: 100px;
+  justify-content: flex-start;
 }
-.trigger:hover .box > div:nth-child(even){
-  transform: translate(-200px, 0) rotate(-180deg);
+.trigger:hover .container > div:nth-child(even){
+  transform: translate(-300px, 0) rotate(-180deg);
   width: 25px;
   height: 25px;
 }
-.box > div{
+.container > div{
   margin-top: 5px;
 }
 .box1{
