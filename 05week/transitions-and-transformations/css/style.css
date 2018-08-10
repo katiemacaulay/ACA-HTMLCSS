@@ -2,7 +2,6 @@ body{
   margin: 0 auto;
   width: 100%;
 }
-
 .mainbox{
   display: flex;
   justify-content: center;
@@ -14,11 +13,9 @@ body{
 .container > div{
   width: 50px;
   height: 50px;
-}
-.container > div{
   transition: width 2s, height 2s, transform 500ms ease-in-out;
+  margin-top: 5px;
 }
-
 .trigger:hover .container > div:nth-child(odd){
   transform: translate(300px, 0) rotate(180deg);
   width: 100px;
@@ -29,42 +26,39 @@ body{
   width: 25px;
   height: 25px;
 }
-.container > div{
-  margin-top: 5px;
-}
 .box1{
-  background-color: #dd9f9f;
+  background-image: linear-gradient(#dd9f9f, #ddaf9f);
 }
 .box2{
-  background-color: #ddaf9f;
+  background-image: linear-gradient(#ddaf9f, #ddbf9f);
 }
 .box3{
-  background-color: #ddbf9f;
+  background-image: linear-gradient(#ddbf9f, #ddd59f);
 }
 .box4{
-  background-color: #ddd59f;
+  background-image: linear-gradient(#ddd59f, #cfdd9f);
 }
 .box5{
-  background-color: #cfdd9f;
+  background-image: linear-gradient(#cfdd9f, #b2dd9f);
 }
 .box6{
-  background-color: #b2dd9f;
+  background-image: linear-gradient(#b2dd9f, #9fdda2);
 }
 .box7{
-  background-color: #9fdda2;
+  background-image: linear-gradient(#9fdda2, #9fddc3);
 }
 .box8{
-  background-color: #9fddc3;
+  background-image: linear-gradient(#9fddc3, #9fddd9);
 }
 .box9{
-  background-color: #9fddd9;
+  background-image: linear-gradient(#9fddd9, #9fcedd);
 }
 .box10{
-  background-color: #9fcedd;
+  background-image: linear-gradient(#9fcedd, #9fb5dd);
 }
 .box11{
-  background-color: #9fb5dd;
+  background-image: linear-gradient(#9fb5dd, #9fa2dd);
 }
 .box12{
-  background-color: #9fa2dd;
+  background-image: linear-gradient(#9fa2dd, #b19fdd);
 }
