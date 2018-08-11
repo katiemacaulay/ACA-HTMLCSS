@@ -1,0 +1,102 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  margin: 0, auto;
+}
+.main{
+  display: flex;
+}
+.mainimg{
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 850px;
+  height: 400px;
+  margin: 25px;
+}
+.maininfo{
+  margin: 25px;
+}
+aside{
+  font-weight: bold;
+  width: 300px;
+  height: 400px;
+  margin-top: 25px;
+}
+h2{
+  border-bottom: solid 1px black;
+  font-variant: small-caps;
+}
+.story{
+  list-style: none;
+  padding: 0px;
+}
+.story > li{
+  margin-top: 20px;
+}
+button{
+  font-variant: small-caps;
+  font-size: 110%;
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+}
+.socialmedia{
+  width: 370px;
+  background-color: grey;
+  color: white;
+  display: none;
+}
+.socialmedialist{
+  list-style: none;
+  padding: 0px;
+}
+.socialmedialist >li{
+  border-bottom: solid 1px white;
+  margin-bottom: 5px;
+}
+
+@media (min-width:200px) and (max-width: 568px){
+  .mainimg{
+    background-size: contain;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 200%;
+  }
+  .maininfo{
+    position: absolute;
+    margin-top: 60%;
+  }
+  .socialmedia{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 450px;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+  }
+  aside{
+    display: none;
+  }
+}
+@media (min-width:568px) and (max-width: 925px){
+  .mainimg{
+    background-size: contain;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 200%;
+  }
+  .maininfo{
+    position: absolute;
+    margin-top: 60%;
+  }
+  aside{
+    display: none;
+  }
+}
