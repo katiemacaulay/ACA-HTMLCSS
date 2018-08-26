@@ -1,23 +1,31 @@
 'use strict';
 
-document.addEventListener("DOMContentLoaded", function(event) {
   window.onload = function(){
 
-    var counts = document.getElementsByTagName('ul')
-      console.log(counts[0].children.length)
+    let list = document.getElementsByTagName('li');
 
-      var count =
-      document.querySelectorAll('li')
-      console.log(count.length);
+    // window.alert('You have ' + list.length + ' items in your shopping cart')
 
-      document.querySelector('h1').insertAdjacentHTML('afterEnd', '<h2> + count.length + 'items in your shopping cart''
-  // var list = document.getElementsByTagName('ol');
+    var h1 = document.querySelector('h1')
+      h1.insertAdjacentHTML('afterEnd',
+      '<h1>You have ' + list.length + ' items in your shopping cart</h1>');
 
-  // var message = "You have _items in your shopping cart." + list.children.length + "items";
+    // Another way of adding a tag
+      // let newh1 = document.createElement('h1');
+      // newh1.innerHTML="You have " + list.length + " items in your shopping cart"
+      // document.querySelector('h1').appendChild(newh1);
 
+        let input = document.createElement('input');
+        input.innerHTML = "";
+        document.querySelector('ul').appendChild(input);
 
+        let button = document.querySelector('ul');
+        // Possibly another way to make this button work:
+        // button.setAttribute("type", "button");
+        button.insertAdjacentHTML('beforeEnd',
+        '<button onclick="myFunction()"> Add to List </button>');
 
-  var newh1 = document.createElement('h1');
-  newh1.innerHTML = 'You have ${counts[0].children.length} items in your shopping cart';
-  document.getElementByTagName('h1').appendChild(newh1);
-});
+        function myFunction(){
+          ul.push(input);
+        }
+}
